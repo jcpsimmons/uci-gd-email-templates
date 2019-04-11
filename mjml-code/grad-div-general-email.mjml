@@ -1,11 +1,14 @@
 <mjml>
+  <mj-head>
+    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css?family=Montserrat:500,500i,700" />
+  </mj-head>
   <mj-body>
 
     <!-- Company Header -->
-    <mj-section background-color="#f0f0f0">
+    <mj-section background-color="#0064a4">
       <mj-column>
-        <mj-text font-style="italic" font-size="20px" color="#626262">
-          My Company
+        <mj-text font-family="Montserrat, sans-serif" font-weight="bold" font-size="20px" color="#c6beb5">
+          UCI Graduate Division
         </mj-text>
       </mj-column>
     </mj-section>
@@ -16,10 +19,10 @@
 
       <mj-column width="600px">
 
-        <mj-text align="center" color="#fff" font-size="40px" font-family="Helvetica Neue">Slogan here</mj-text>
+        <mj-text align="center" color="#fff" font-size="40px" font-family="Montserrat">Slogan here</mj-text>
 
-        <mj-button background-color="#F63A4D" href="#">
-          Promotion
+        <mj-button background-color="#0064a4" href="#">
+          Possible Button
         </mj-button>
 
       </mj-column>
@@ -31,13 +34,13 @@
     <mj-section background-color="#fafafa">
       <mj-column width="400px">
 
-        <mj-text font-style="italic" font-size="20px" font-family="Helvetica Neue" color="#626262">My Awesome Text</mj-text>
+        <mj-text font-style="italic" font-size="20px" font-family="Montserrat" color="#626262">My Awesome Text</mj-text>
 
         <mj-text color="#525252">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim eget magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras id dui lectus. Vestibulum sed finibus lectus, sit amet suscipit nibh. Proin nec commodo purus. Sed eget nulla elit. Nulla aliquet mollis faucibus.
         </mj-text>
 
-        <mj-button background-color="#F45E43" href="#">Learn more</mj-button>
+        <mj-button background-color="#0064a4" href="#">Learn more</mj-button>
 
       </mj-column>
     </mj-section>
@@ -52,7 +55,7 @@
 
       <!-- right paragraph -->
       <mj-column>
-        <mj-text font-style="italic" font-size="20px" font-family="Helvetica Neue" color="#626262">
+        <mj-text font-style="italic" font-size="20px" font-family="Montserrat" color="#626262">
           Find amazing places
         </mj-text>
 
@@ -75,14 +78,34 @@
         <mj-image width="100px" src="http://191n.mj.am/img/191n/3s/x0s.png" />
       </mj-column>
     </mj-section>
+   
     <!-- Social icons -->
-
-    <mj-section background-color="#e7e7e7">
-      <mj-column>
+    <mj-section background-color="#0064a4" border-top="5px solid #ffd200">
+    <mj-column width="600px">
+        <mj-text align="center" color="#c6beb5" font-size="14px" font-family="Montserrat">
+         UCI Graduate Division</br>
+            <a href="https://grad.uci.edu/">grad.uci.edu</a></br>
+            120 Aldrich Hall<br/>
+            Irvine, CA 92697-3180<br/>
+            949.824.4611<br/>
+            <a href="mailto:grad@uci.edu">grad@uci.edu</a>
+        </mj-text>
+      </mj-column>
         <mj-social>
           <mj-social-element name="facebook" />
         </mj-social>
-      </mj-column>
+        <mj-social>
+          <mj-social-element name="twitter" />
+        </mj-social>
+        <mj-social>
+          <mj-social-element name="youtube" />
+        </mj-social>
+        <mj-social>
+          <mj-social-element name="instagram" />
+        </mj-social>
+        <mj-social>
+          <mj-social-element name="linkedin" />
+        </mj-social>
     </mj-section>
 
 

@@ -1,7 +1,4 @@
 <mjml>
-  <mj-head>
-    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css?family=Montserrat:500,500i,700" />
-  </mj-head>
   <mj-body>
 
     <!-- Company Header -->
@@ -17,7 +14,7 @@
 
       <mj-column width="600px">
 
-        <mj-text align="center" color="#0064a4" font-size="40px" font-family="Montserrat">Slogan here</mj-text>
+        <mj-text align="center" color="#0064a4" font-size="40px" font-family="Arial">Slogan here</mj-text>
 
         <mj-button color="black" background-color="#ffd200" href="#">
           Possible Button
@@ -32,7 +29,7 @@
     <mj-section background-color="#fafafa">
       <mj-column width="400px">
 
-        <mj-text font-style="italic" font-size="20px" font-family="Montserrat" color="#626262">Header Text</mj-text>
+        <mj-text font-weight="bold" font-size="20px" font-family="Arial" color="#626262">Header Text</mj-text>
 
         <mj-text color="#525252">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim eget magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras id dui lectus. Vestibulum sed finibus lectus, sit amet suscipit nibh. Proin nec commodo purus. Sed eget nulla elit. Nulla aliquet mollis faucibus.
@@ -53,7 +50,7 @@
 
       <!-- right paragraph -->
       <mj-column>
-        <mj-text font-style="italic" font-size="20px" font-family="Montserrat" color="#626262">
+        <mj-text font-weight="bold" font-size="20px" font-family="Arial" color="#626262">
           Some extra information
         </mj-text>
 
@@ -77,7 +74,7 @@
     <!-- Social icons -->
     <mj-section background-color="#0064a4" border-top="5px solid #ffd200">
       <mj-column width="600px">
-        <mj-text line-height="15px" align="center" color="#c6beb5" font-size="14px" font-family="Montserrat">
+        <mj-text line-height="15px" align="center" color="#c6beb5" font-size="14px" font-family="Arial">
           UCI Graduate Division</br>
           <a href="https://grad.uci.edu/">grad.uci.edu</a></br>
           120 Aldrich Hall<br />
@@ -86,7 +83,7 @@
           <a href="mailto:grad@uci.edu">grad@uci.edu</a>
         </mj-text>
       </mj-column>
-      <mj-text align="center" color="#c6beb5" font-size="14px" font-family="Montserrat">
+      <mj-text align="center" color="#c6beb5" font-size="14px" font-family="Arial">
         Stay Connected:
       </mj-text>
       <mj-social>

@@ -5,23 +5,21 @@
   <mj-body>
 
     <!-- Company Header -->
-    <mj-section background-color="#0064a4">
+    <mj-section background-color="#0064a4" border-top="5px solid #ffd200">
       <mj-column>
-        <mj-text font-family="Montserrat, sans-serif" font-weight="bold" font-size="20px" color="#c6beb5">
-          UCI Graduate Division
-        </mj-text>
+        <mj-image align="center" width="200px" src="https://www.grad.uci.edu/img/grad-wordmark.svg" />
       </mj-column>
     </mj-section>
 
 
     <!-- Image Header -->
-    <mj-section background-url="http://1.bp.blogspot.com/-TPrfhxbYpDY/Uh3Refzk02I/AAAAAAAALw8/5sUJ0UUGYuw/s1600/New+York+in+The+1960's+-+70's+(2).jpg" background-size="cover" background-repeat="no-repeat">
+    <mj-section background-url="http://haun.eng.uci.edu/sites/haun.eng.uci.edu/themes/haunlab/img/campus_aerial_shot.jpg" background-size="cover" background-repeat="no-repeat">
 
       <mj-column width="600px">
 
-        <mj-text align="center" color="#fff" font-size="40px" font-family="Montserrat">Slogan here</mj-text>
+        <mj-text align="center" color="#0064a4" font-size="40px" font-family="Montserrat">Slogan here</mj-text>
 
-        <mj-button background-color="#0064a4" href="#">
+        <mj-button color="black" background-color="#ffd200" href="#">
           Possible Button
         </mj-button>
 
@@ -34,13 +32,13 @@
     <mj-section background-color="#fafafa">
       <mj-column width="400px">
 
-        <mj-text font-style="italic" font-size="20px" font-family="Montserrat" color="#626262">My Awesome Text</mj-text>
+        <mj-text font-style="italic" font-size="20px" font-family="Montserrat" color="#626262">Header Text</mj-text>
 
         <mj-text color="#525252">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum enim eget magna efficitur, eu semper augue semper. Aliquam erat volutpat. Cras id dui lectus. Vestibulum sed finibus lectus, sit amet suscipit nibh. Proin nec commodo purus. Sed eget nulla elit. Nulla aliquet mollis faucibus.
         </mj-text>
 
-        <mj-button background-color="#0064a4" href="#">Learn more</mj-button>
+        <mj-button background-color="#0064a4" href="#">Call to Action</mj-button>
 
       </mj-column>
     </mj-section>
@@ -50,13 +48,13 @@
 
       <!-- Left image -->
       <mj-column>
-        <mj-image width="200px" src="https://designspell.files.wordpress.com/2012/01/sciolino-paris-bw.jpg" />
+        <mj-image width="400px" padding-right="5px" padding-left="5px" src="https://www.grad.uci.edu/assets/images/home/2018/GlobalImpact/pharmsci_benavente_Impact3.jpg" />
       </mj-column>
 
       <!-- right paragraph -->
       <mj-column>
         <mj-text font-style="italic" font-size="20px" font-family="Montserrat" color="#626262">
-          Find amazing places
+          Some extra information
         </mj-text>
 
         <mj-text color="#525252">
@@ -69,43 +67,43 @@
     <!-- Icons -->
     <mj-section background-color="#fbfbfb">
       <mj-column>
-        <mj-image width="100px" src="http://191n.mj.am/img/191n/3s/x0l.png" />
+        <mj-image width="300px" padding-right="5px" padding-left="5px" src="https://www.grad.uci.edu/assets/images/home/2018/GRC/GRC2.JPG" />
       </mj-column>
       <mj-column>
-        <mj-image width="100px" src="http://191n.mj.am/img/191n/3s/x01.png" />
-      </mj-column>
-      <mj-column>
-        <mj-image width="100px" src="http://191n.mj.am/img/191n/3s/x0s.png" />
+        <mj-image width="300px" padding-right="5px" padding-left="5px" src="https://www.grad.uci.edu/assets/images/home/2018/GRC/GRC1.JPG" />
       </mj-column>
     </mj-section>
-   
+
     <!-- Social icons -->
     <mj-section background-color="#0064a4" border-top="5px solid #ffd200">
-    <mj-column width="600px">
-        <mj-text align="center" color="#c6beb5" font-size="14px" font-family="Montserrat">
-         UCI Graduate Division</br>
-            <a href="https://grad.uci.edu/">grad.uci.edu</a></br>
-            120 Aldrich Hall<br/>
-            Irvine, CA 92697-3180<br/>
-            949.824.4611<br/>
-            <a href="mailto:grad@uci.edu">grad@uci.edu</a>
+      <mj-column width="600px">
+        <mj-text line-height="15px" align="center" color="#c6beb5" font-size="14px" font-family="Montserrat">
+          UCI Graduate Division</br>
+          <a href="https://grad.uci.edu/">grad.uci.edu</a></br>
+          120 Aldrich Hall<br />
+          Irvine, CA 92697-3180<br />
+          949.824.4611<br />
+          <a href="mailto:grad@uci.edu">grad@uci.edu</a>
         </mj-text>
       </mj-column>
-        <mj-social>
-          <mj-social-element name="facebook" />
-        </mj-social>
-        <mj-social>
-          <mj-social-element name="twitter" />
-        </mj-social>
-        <mj-social>
-          <mj-social-element name="youtube" />
-        </mj-social>
-        <mj-social>
-          <mj-social-element name="instagram" />
-        </mj-social>
-        <mj-social>
-          <mj-social-element name="linkedin" />
-        </mj-social>
+      <mj-text align="center" color="#c6beb5" font-size="14px" font-family="Montserrat">
+        Stay Connected:
+      </mj-text>
+      <mj-social>
+        <mj-social-element name="facebook" />
+      </mj-social>
+      <mj-social>
+        <mj-social-element name="twitter" />
+      </mj-social>
+      <mj-social>
+        <mj-social-element name="youtube" />
+      </mj-social>
+      <mj-social>
+        <mj-social-element name="instagram" />
+      </mj-social>
+      <mj-social>
+        <mj-social-element name="linkedin" />
+      </mj-social>
     </mj-section>
 
 

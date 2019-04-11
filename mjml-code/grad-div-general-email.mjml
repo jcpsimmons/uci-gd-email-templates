@@ -4,7 +4,7 @@
     <!-- Company Header -->
     <mj-section background-color="#0064a4" border-top="5px solid #ffd200">
       <mj-column>
-        <mj-image align="center" width="200px" src="jcsdesign.me/uci-gd-email-templates/assets/grad-wordmark.png" />
+        <mj-image align="center" width="200px" src="http://jcsdesign.me/uci-gd-email-templates/assets/grad-wordmark.png" />
       </mj-column>
     </mj-section>
 
